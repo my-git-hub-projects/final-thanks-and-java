@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>First Project</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://kit.fontawesome.com/195f7d9906.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+  
+        <nav class="navbar-about-contact">
+                <div class="container"> 
+                        <h1 class="lg-heading"> my first project</h1>
+                        <ul class="list-items">
+                          <li class="list-item"><a class="link" href="./index.html">HOME</a></li>
+                          <li class="list-item"><a class="link"href="./about.html">ABOUT</a></li>
+                          <li class="list-item"><a class="link" href="./contact.html">CONTACT</a></li>
+                          <ul>
+            
+                        </div>
+                    </nav>
+
+            <section class="container">
+                <div class="contact-main-div">
+                    <div class="left-div">
+                           
+                        <div class="div">
+                            <i class="fa-sharp fa-solid fa-location-dot fa-3x text-red"></i>
+                            <h2 class="text-gray md-heading">LOCATION</h2>
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                        <div class="div">
+                            <i class="fa-solid fa-envelope text-red fa-3x"></i>
+                            <h2 class="text-gray md-heading">email</h2>
+                            <p></p>
+                        </div>
+                        <div class="div">
+                        <i class="fa-solid fa-phone fa-3x text-red"></i>
+                            <h2 class="text-gray md-heading">call</h2>
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                        <img src="company-img.jpg" alt="company image">
+                    </div>
+                    <form  class="form" action="">
+                        <h1 class="lg-heading text-black form-h1">contact us </h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, expedita!</p>
+                       <div class="form-label">
+                        <label for="username "> username</label>
+                        <input type="text" id="username " required>
+                        <br> </br>
+                       </div>
+                       <div class="form-label">
+                         <label for="contact"> contact</label>
+                        <input type="text" id="contact " required>
+                        <br> </br>
+                       </div>
+
+                        <div class="form-label">
+                            <label for="email"> email</label>
+                           <input type="email" id="email" required>
+                           <br> </br>
+                       </div>
+
+                       <div class="form-label">
+                        <label for="message">message</label>
+                        <textarea name="name" id="message" cols="22" rows="9
+                        "></textarea>
+                       </div>
+                       <div class ="btn-form">
+
+                           <button type="submit" class="form-btn text-light" onclick="myfunction()"> <a href="./thanks.html">submit</a></button>
+                       </div>
+                        
+                    </form>
+                </div>
+            </section> 
+            <script>
+                function myfunction(){
+                    window.alert("your details has been submitted");
+                }
+            </script>
+</html>
